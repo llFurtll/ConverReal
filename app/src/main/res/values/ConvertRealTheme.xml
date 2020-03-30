@@ -1,0 +1,9 @@
+<resources>
+
+<style name="ConvertRealTheme"
+    parent="@style/ThemeOverlay.AppCompat.Dark">
+    <item name="colorControlNormal">#ffffff</item>
+    <item name="titleTextColor">#ffffff</item>
+</style>
+
+</resources>

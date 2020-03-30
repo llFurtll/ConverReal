@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="Qual o valor em Real?"/>
+
+    <EditText
+        android:id="@+id/edit_valor"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"
+        android:layout_gravity="center"
+        android:drawableRight="@drawable/ic_cancel"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Valor em Dólar"/>
+
+    <TextView
+        android:id="@+id/text_dolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:text="Valor em Dólar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Valor em Euros" />
+
+    <TextView
+        android:id="@+id/text_euro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:text="Valor em Euros"/>
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/colorLight"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>

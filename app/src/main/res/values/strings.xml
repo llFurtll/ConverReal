@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ConvertReal</string>
+    <string name="url_api">https://economia.awesomeapi.com.br</string>
+</resources>
